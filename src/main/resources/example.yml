@@ -1,0 +1,30 @@
+# Comment
+
+name: John # property
+
+names: #list of properties
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "#" #Value
+
+book: #More complex object
+  author: Joe Buck
+  publisher: random house
+
+truth: yes # boolean
+another_truth: True #another boolean
+more_truth: true #also a boolean
+
+false: no #to represent false, also use No, false or FALSE
+
+string_val: "This is it's quote" #use double  quotes because of the single quote
+colon_string: "My courses: one two three" #double quotes needed because of the colon"
+include_new_lines: |
+  first line
+  second line
+ignore_new_lines: >
+  this is
+  just a long
+  string

@@ -1,0 +1,12 @@
+guru:
+  jms:
+    username: JMS username
+    password: JMSpass
+    url: JMS.url
+
+--- #File separator
+spring:
+  profiles: de
+guru:
+  jms:
+    username: JMS username in german #This property overrides the one above because this one is associated to a Spring profile
